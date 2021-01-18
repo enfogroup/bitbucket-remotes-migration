@@ -13,6 +13,6 @@ This script should be run a Bash terminal.
 * Update the two variables at the top of the script. SOURCE_TEAM should be set to the name of the source Bitbucket team and DST_TEAM to the destination team
 * Enable execution of the script by running chmod +x fixOrigins.sh
 * Position yourself in your code directory. This should be the directory where you keep your repositories
-* Run the script (./bitbucket-remotes-migration/fixOrigins.sh or similar)
+* Run the script (./bitbucket-remotes-migration/fixRemotes.sh or similar)
 * Wait. The script will verify that each remote exists which takes time
 * Check output
